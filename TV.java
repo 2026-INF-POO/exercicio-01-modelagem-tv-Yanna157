@@ -11,12 +11,15 @@ class TV {
    return volume;
  }
 
+  int diminuirVolume(){
+     if(volume > 10){
+       volume--;
+  }
+   return volume;
+ }
+
   void desligar(){
     //lógica para TV desligar
-  }
-
-  void aumentar e diminuir o volume(){
-    //lógica para TV aumentar e diminuir o volume
   }
 
   void subir_de_canal(){
